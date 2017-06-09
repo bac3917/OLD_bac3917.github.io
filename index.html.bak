@@ -1,7 +1,8 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  </head>
+  <body>&nbsp;
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
     <meta name="mobile-web-app-capable" content="yes">
@@ -23,15 +24,14 @@
         </style>
     <title>Social Science, Writing and Sketching @bac3917</title>
     <meta content="bac" name="author">
-  </head>
-  <body> <br>
-    <img title="Balancing Situation" alt="Balancing Situation" src="https://bac3917.github.io/resources/webPageImage1.png"><br>
+    <br>
+    <img style="width: 166px; height: 220px;" title="Balancing Situation" alt="Balancing Situation"
+      src="https://bac3917.github.io/resources/webPageImage1.png"><br>
     <div style="margin-left: 40px;"><strong><br>
       </strong><strong></strong></div>
     <strong><br>
     </strong>
     <div style="margin-left: 40px;"><strong><u>Professional Writing / Research</u></strong><br>
-      <strong></strong><br>
       <strong></strong></div>
     <ul style="margin-left: 40px;">
       <li><a target="_parent" href="http://www.tandfonline.com/doi/abs/10.1080/00220671.2016.1253537">Teaching
@@ -50,17 +50,22 @@
           Triangle (see p.3)</a> </li>
     </ul>
     <div style="margin-left: 40px;"><strong></strong><strong><u><br>
-          Analysis</u></strong><strong></strong>
+          Quantitative Analysis</u></strong><strong></strong>
       <ul style="margin-left: 40px;">
+      </ul>
+      <ul>
         <li><a target="_parent" href="https://github.com/bac3917">Github</a></li>
         <li><a target="_blank" href="https://rpubs.com/bac3917"><span style="color: #0000ee;">Rpubs</span></a></li>
+      </ul>
+      <ul style="margin-left: 40px;">
       </ul>
       <br>
       <strong><u>Affiliations</u></strong><br>
       <strong></strong></div>
     <ul style="margin-left: 40px;">
       <li><a target="_parent" href="https://www.facebook.com/harrisburgsketchers/">Harrisburg
-          Sketchers (co-founded this Urban Sketching group)</a></li>
+          Sketchers<br>
+        </a></li>
       <li><a target="_parent" href="www.urbansketchers.org"><span style="color: #0000ee;">Urban
             Sketchers</span></a></li>
     </ul>
@@ -79,10 +84,7 @@
       <li><a target="_parent" href="www.twitter.com/bac3917"><span style="color: #0000ee;">Twitter</span></a><br>
       </li>
     </ul>
-    <br>
-    <footer class="site-footer"> <br>
-      Contact:
-      <li><a href="mailto:bac3917@gmail.com">bac3917@gmail.com</a></li>
-    </footer>
+    <div style="margin-left: 40px;"><u><strong>Contact</strong></u>: </div>
+    <li style="margin-left: 80px;"><a href="mailto:bac3917@gmail.com">bac3917@gmail.com</a></li>
   </body>
 </html>
