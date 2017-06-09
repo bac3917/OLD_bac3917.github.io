@@ -38,8 +38,7 @@
           STEM after school: Correlates of instructional comfort</a></li>
       <li><span style="color: #0000ee;"><a target="_parent" href="http://www.center-school.org/research-eval-resources.php">Research
             Briefs</a> (various topics)</span></li>
-      <li><a target="_parent" href="https://www.researchgate.net/publication/311203741_From_Muscular_Christianity_to_the_Cult_of_Efficiency_Inter-developments_of_Ideology_and_Violence_Reflected_in_the_Portrayal_of_Teachers_in_Three_American_Novels_Draft"><span
-
+      <li><a target="_parent" href="https://www.researchgate.net/publication/311203741_From_Muscular_Christianity_to_the_Cult_of_Efficiency_Inter-developments_of_Ideology_and_Violence_Reflected_in_the_Portrayal_of_Teachers_in_Three_American_Novels_Draft"><span
             style=" color: #0000ee;">Intersection of Ideology and Violence in
             Schools as Seen in Three Novels<br>
           </span></a></li>
@@ -77,19 +76,13 @@
       <strong></strong></div>
     <ul style="margin-left: 40px;">
       <li><a target="_parent" href="https://www.linkedin.com/in/benjamin-cohen-04200a7/">LinkedIn</a></li>
-      <li><a target="_parent" href="www.twitter.com/bac3917"><span style="color: #0000ee;">Twitter</span></a></li>
+      <li><a target="_parent" href="www.twitter.com/bac3917"><span style="color: #0000ee;">Twitter</span></a><br>
+      </li>
     </ul>
-    <object class="tableauViz" style="display:none;"><param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F">
-      <param name="site_root" value=""><param name="name" value="bridges/Sheet1"><param
-
-        name="tabs" value="no"><param name="toolbar" value="yes"><param name="static_image"
-
-        value="https://public.tableau.com/static/images/br/bridges/Sheet1/1.png">
-      <param name="animate_transition" value="yes"><param name="display_static_image"
-
-        value="yes"><param name="display_spinner" value="yes"><param name="display_overlay"
-
-        value="yes"><param name="display_count" value="yes"></object>
-    <script type="text/javascript">                    var divElement = document.getElementById('viz1494525072214');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <br>
+    <footer class="site-footer"> <br>
+      Contact:
+      <li><a href="mailto:bac3917@gmail.com">bac3917@gmail.com</a></li>
+    </footer>
   </body>
 </html>
