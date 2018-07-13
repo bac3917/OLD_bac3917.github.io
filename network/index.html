@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" itemscope itemtype="http://schema.org/Map">
 
 <head>
-<title>JazzViz Network Visualisation Example</title>
+<title>OII Network Visualisation Example</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,user-scalable=no" />
@@ -23,7 +23,33 @@
 
 
 <body>
-
+  <div class="sigma-parent">
+    <div class="sigma-expand" id="sigma-canvas"></div>
+  </div>
+<div id="mainpanel">
+  <div class="col">
+		<div id="maintitle"></div>
+    <div id="title"></div>
+    <div id="titletext"></div>
+    <div class="info cf">
+      <dl>
+        <dt class="moreinformation"></dt>
+        <dd class="line"><a href="#information" class="line fb">More about this visualisation</a></dd>
+      </dl>
+    </div>
+<div id="legend">
+	<div class="box">
+		<h2>Legend:</h2>
+		<dl>
+		<dt class="node"></dt>
+		<dd></dd>
+		<dt class="edge"></dt>
+		<dd></dd>
+		<dt class="colours"></dt>
+		<dd></dd>		
+		</dl>
+	</div>
+</div> 
     <div class="b1">
     <form>
       <div id="search" class="cf"><h2>Search:</h2>
@@ -49,18 +75,9 @@
 <div id="attributepane">
 <div class="text">
 	<div title="Close" class="left-close returntext"><div class="c cf"><span>Return to the full network</span></div></div>	
-	<div class="headertext">
+<div class="headertext">
 	<span>Information Pane</span>
 </div>	
-	<style>
-.nodeattributes {
-    background-color: black;
-	font-family:verdana;
-	font-size:80%
-    color: white;
-    padding: 10px;
-} 
-	</style>
   <div class="nodeattributes">
     <div class="name"></div>
 	<div class="data"></div>
