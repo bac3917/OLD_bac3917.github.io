@@ -37,7 +37,7 @@ html,body {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: #000000; /* ben change */
+	background-color: #eee;
 	background-position: center center;
 	background-repeat: no-repeat;
 	-webkit-touch-callout: none;
@@ -60,11 +60,11 @@ canvas#sigma_bg_1 {
     bottom:0;
     top:0;
     right:0;
-	width: 200px;  /* ben change from 240*/
+	width: 240px;
 	background-color: #fff;
 	margin: 0;
 	word-wrap: break-word;
-	background-color:rgba(128,128,128,0.8); /* ben change */
+	background-color:rgba(255,255,255,0.8);
 	border-left: 1px solid #ccc;
 	padding: 0px 18px 0px 18px;	
 	z-index: 1;
@@ -187,15 +187,15 @@ font-size:14px;
 }
 
 #developercontainer {
-	margin-left:15px;  /* ben change */
-	margin-bottom:15px;  /* ben change */
+	margin-left:25px;
+	margin-bottom:25px;
 	position:fixed;
 	bottom:0;
 }
 
 #jisc {
-width: 61px;  /* ben change */
-height: 56px;  /* ben change */
+width: 71px;
+height: 56px;
 background-image: url('../images/jisc-logo-small.png');
 background-repeat: no-repeat;
 display:inline-block;
@@ -206,8 +206,8 @@ display:inline-block;
 }
 
 #oii {
-width: 180px;  /* ben change */
-height: 46px;  /* ben change */
+width: 227px;
+height: 56px;
 background-image: url('../images/oii_text.png');
 background-repeat: no-repeat;
 display:inline-block;
@@ -231,8 +231,8 @@ display: none;
 }
 
 #mainpanel {
-margin-top: 20px; /* ben change */
-margin-left: 15px; /* ben change */
+margin-top: 50px;
+margin-left: 25px;
 background:#fff;
 background-color:rgba(255,255,255,0.8);
 border:1px solid #ccc;
@@ -246,7 +246,7 @@ padding: 0px 0 0 0;
 }
 
 #mainpanel .col {
-width: 200px; /* ben change */
+width: 240px;
 padding: 18px 18px 18px 18px;
 margin: 0;
 
@@ -388,7 +388,7 @@ padding-top: 1em;
 }
 
 #mainpanel h2 {
-	font-size:12px;
+	font-size:14px;
 }
 
 #mainpanel dt {

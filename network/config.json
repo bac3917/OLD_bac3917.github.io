@@ -3,19 +3,19 @@
   "version": "1.0",
   "data": "data.json",
   "logo": {
-    "file": "https://bac3917.github.io/",
-    "link": "https://bac3917.github.io/",
-    "text": "bc"
+    "file": "",
+    "link": "https://bac3917.github.io/jazzViz/index.html",
+    "text": "csc"
   },
   "text": {
-    "more": "",
-    "intro": "test2",
-    "title": "j2"
+    "more": "The Blue Note 4000 series records include some of the most iconic hard-bop \njazz musicians. The individuals who played on those albums are shown according to their inter-connections here.",
+    "intro": "Blue Note 4000 sereis \tNetwork Graph",
+    "title": ""
   },
   "legend": {
     "edgeLabel": "connection",
     "colorLabel": "blue",
-    "nodeLabel": "id"
+    "nodeLabel": "Musician"
   },
   "features": {
     "search": true,
@@ -24,7 +24,7 @@
   },
   "informationPanel": {
     "groupByEdgeDirection": true,
-    "imageAttribute": "Strongly-Connected ID"
+    "imageAttribute": false
   },
   "sigma": {
     "drawingProperties": {
