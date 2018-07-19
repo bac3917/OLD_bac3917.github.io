@@ -1,98 +1,84 @@
-<html dir="ltr" lang="en-us">
+<!DOCTYPE html>
+<html>
   <head>
     <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>jazzViz</title>
+    <meta name="jazzViz" content="width=device-width, initial-scale=1">
+    <meta content="Visualization of jazz history and networks" name="description">
+    <meta content="Jazz viz visualization R" name="keywords">
   </head>
-  <body style="                                          background-color:silver;">
+  <body>
     <style>
-p.sansserif {    font-family: Arial, Helvetica, sans-serif}
-div {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 150px;
-    margin-left: 80px;
-		font-family: Arial, Helvetica, sans-serif}
-
-    </style> <meta="" content="Benjamin A. Cohen" name="author">
-      <meta content="Visualization of jazz history and networks" name="description">
-      <meta content="Jazz viz visualization R" name="keywords">
-      <br>
-      <br>
-      <p></p>
+    p.sansserif {    font-family: Arial, Helvetica, sans-serif}
+    div{margin-top:=10px; margin-bottom:=10px; margin-right:=150px; 
+      margin-left:=100px; font-family:=Arial,Helvetica,sans-serif}
+    </style>
+    <div class="w3-container">
       <p style="color:Blue; font-size:30px"> &nbsp; &nbsp; &nbsp; &nbsp;<strong>&nbsp;&nbsp;
           The jazzVIZ Project </strong> </p>
-      <p> </p>
-      <strong> </strong>
-      <div> Thousands of jazz albums produced in the United States included
+      <p>Thousands of jazz albums produced in the United States included
         thousands of musicians. Who played with who? Who was the most central
         musician in 1964? Where did studios produce the most albums? The network
         maps and visualizations below help to illustrate an answer to these
-        kinds of questions.
-        <p> </p>
-        What you see here is the pilot phase of an ambitious project. While
-        numerous websites store information about jazz albums and their artists
-        who created them none permit for data analysis, manipulation,
-        visualizations and/or extraction. When a full database of musicians,
-        their albums, dates, studios and locations is developed, a great deal of
-        questions can be thrown at it.
-        <p> </p>
-        Some great work has been done already. Projects like jazzdisco.org and
-        discogs.org have organized a great deal of information. Ideally, after
-        demonstrating some of the ideas introduced above, raw data from these
-        and similar sources can be made available.<br>
-        <br>
-        For now, you can see the following developments here:<br>
-        <ul>
-          <li> <a href="viz1">Network Map of the VERVE Label Using </a></li>
-          <li> <a href="viz2">Network Map of the Blue Note 4000 Series</a></li>
-        </ul>
-        <br>
-        <p> </p>
-        The purpose of the jazz database is to document American jazz through
+        kinds of questions. 
+      <p></p>
+      What you see here is the pilot phase of an ambitious
+        project. While numerous websites store information about jazz albums and
+        their artists who created them none permit for data analysis,
+        manipulation, visualizations and/or extraction. When a full database of
+        musicians, their albums, dates, studios and locations is developed, a
+        great deal of questions can be thrown at it. 
+      <p></p>Some great jazz documentation has been
+        done already. Projects like jazzdisco.org and discogs.org have organized
+        a great deal of information. Ideally, after demonstrating some of the
+        ideas introduced above, raw data from these and similar sources can be
+        made available. 
+      <p></p>
+      The purpose of the jazz database is to document American jazz through
         the 1970s. The goal is to create a set of "jazz data" in a universally
         available and systematic format that will ultimately be available as an
         education resource. When the database reaches a sufficient development
         level it will be released according to terms of a GNU Free Documentation
         License. There are several key steps along the way. First, a database
         design is needed, then the data must be collected, cleaned and
-        organized. Analysis follows. <br>
-        <br>
-        Concerning those data -- what will they look like? It might
-        be best to think of them in terms of the "buckets" the database will
-        use: <br>
-        <ul>
-          <li>Artists: A list of American jazz musicians, with basic biographical
-            data such as date of birth, date of death, birthplace.</li>
-          <li>Albums:A list of albums, from <em>Kind of Blue </em>to <em>This
-              is Duke Ellington.</em></li>
-          <li>Network Connections: Simply a list of each artist and what other
-            artists he or she worked with on a published album. </li>
-          <li>Labels: A list of record studios and the various labels each
-            produced. This is a difficult set of data if not only because there
-            was not any standardization in jazz label nomenclature until 1977
-            when the Label Code (LC) was introduced by the International
-            Association of Sound and Audiovisual Archives (<a target="_top" title="IASA"
-
-              href="https://www.iasa-web.org/cataloguing-rules/information-about-iasa">IASA</a>),
-            which was founded in 1969. </li>
-        </ul>
-        <p></p>
-      </div>
-      <br>
-      <a id="viz1">Sampling of the VERVE Label Using <em>visNetwork</em></a>
-      <p></p>
-      <p style="color:Blue;"><strong>Click/drag a node on each to see who
-          related to who.<br>
-          Use your mouse wheel to zoom in and out. </strong></p>
+        organized. Examples of different visualuzations of jazz data are available here; click the tab that grabs your interest!
+     <p></p>
+     
+    </div>
+    <div class="w3-bar w3-black"> <button class="w3-bar-item w3-button" onclick="openViz('BlueNote')">Blue
+        Note Network</button> <button class="w3-bar-item w3-button" onclick="openViz('Verve')">Verve
+        Network</button> <button class="w3-bar-item w3-button" onclick="openViz('OtherViz')">Other
+        Viz</button> </div>
+    
+    
+    <div id="BlueNote" class="w3-container viz">
+      <h2>Blue Note</h2>
+      <p>Alfred Lion and Max Margulis founded Blue Note records in 1939 and includes recordings of jazz greats such as Thelonius Monk and Bud Powell.
+      <iframe src="https://bac3917.github.io/network/index.html" style="border:none marginwidth="50" height="600" width="1300"></iframe> 
+		</div>
+    
+    <div id="Verve" class="w3-container viz" style="display:none">
+      <h2>Verve Records</h2>
+      <p>Verve Records was founded by Norman Granz in 1956 and includes
+        recordings of legendary artists such as Ella Fitzgeralnd and Stan Getz.</p>
       <iframe src="https://bac3917.github.io/network/verve.html" style="border:none marginwidth="
-
-        50"="" height="500" width="900"></iframe>
-      <p></p>
-      <a id="viz2">Sampling of the Blue Note 4000 Series Using GEPHI</a> <iframe
-
-        src="https://bac3917.github.io/network/index.html" style="border:none marginwidth="
-
-        50"="" height="600" width="1300"></iframe><br>
-      <p></p>
-      Return to bac3917's <a href="https://bac3917.github.io/">home page</a> </meta="">
+        50"="" height="500" width="900"></iframe> <br>
+    </div>
+    
+    
+    <div id="OtherViz" class="w3-container viz" style="display:none">
+      <h2>Many Possibilities</h2>
+      <p>There are many possibilities for jazzViz!</p>
+    </div>
+    <script>
+function openViz(viz) {
+    var i;
+    var x = document.getElementsByClassName("viz");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    document.getElementById(viz).style.display = "block";  
+}
+</script>
   </body>
 </html>
