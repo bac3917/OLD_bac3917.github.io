@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-us">
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>jazzVizttest</title>
+  </head>
+  <body style="                                                  background-color:silver;">
+    <style>
+p.sansserif {    font-family: Arial, Helvetica, sans-serif}
+div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 80px;
+    margin-left: 80px;
+        font-family: Arial, Helvetica, sans-serif}
+
+    </style> <meta="" content="Benjamin A. Cohen" name="author">
+      <meta content="Visualization of jazz history and networks" name="description">
+      <meta content="Jazz viz visualization R" name="keywords">
+      <p style="margin-left: 120px;">The purpose of the jazz database is to
+        document American jazz through the 1970s. The goal is to create a set of
+        "jazz data" in a universally available and systematic format that will
+        ultimately be available as an education resource. When the database
+        reaches a sufficient development level it will be released according to
+        terms of a GNU Free Documentation License. There are several key steps
+        along the way. First, a database design is needed, then the data must be
+        collected, cleaned and organized. Analysis follows.</p>
+      <p style="margin-left: 120px;">Concerning those data -- what will they
+        look like? It might be best to think of them in terms of the "buckets"
+        the database will use:<b><br>
+        </b></p>
+      <p style="margin-left: 120px;"><b>Artists</b>: A list of American jazz
+        musicians, with basic biographical data such as date of birth, date of
+        death, birthplace.<b><br>
+        </b></p>
+      <p style="margin-left: 120px;"><b>Albums</b>: A list of albums, from <em>Kind
+          of Blue </em>to <em>This is Duke Ellington. </em>The album table
+        will include a data for each artist who performed on it.<em> </em>Links
+        to other tables table with Label Code (see below).<em></em><b><br>
+        </b></p>
+      <p style="margin-left: 120px;"><b>Network Connections</b>: Simply a list
+        of each artist and what other artists he or she worked with on a
+        published album.<b><br>
+        </b></p>
+      <p style="margin-left: 120px;"><b>Labels</b>: A list of record studios and
+        the various labels each produced. This is a difficult set of data if not
+        only because there was not any standardization in jazz label
+        nomenclature until 1977 when the Label Code (LC) was introduced by the
+        International Association of Sound and Audiovisual Archives (<a target="_top"
+
+          title="IASA" href="https://www.iasa-web.org/cataloguing-rules/information-about-iasa">IASA</a>),
+        which was founded in 1969. </p>
+    </meta="">
+  </body>
+</html>
